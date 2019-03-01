@@ -1,6 +1,6 @@
 {
   "name": "@strong-roots-capital/map-objects",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Map key-value pairs treating deeply-equal keys as equivalent objects",
   "main": "dist/map-objects.js",
   "types": "dist/map-objects.d.ts",
