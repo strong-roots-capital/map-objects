@@ -52,7 +52,7 @@ Extend built-in `Map` to treat deeply-equal keys as equivalent objects.
 
 *Inherited from Map.[Symbol.toStringTag]*
 
-*Defined in /home/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:130*
+*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:130*
 
 ___
 <a id="size"></a>
@@ -63,7 +63,7 @@ ___
 
 *Inherited from Map.size*
 
-*Defined in /home/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:28*
+*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:28*
 
 ___
 <a id="map"></a>
@@ -72,7 +72,7 @@ ___
 
 **● Map**: *`MapConstructor`*
 
-*Defined in /home/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:35*
+*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:35*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 *Inherited from Map.[Symbol.iterator]*
 
-*Defined in /home/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:113*
+*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:113*
 
 Returns an iterable of entries in the map.
 
@@ -101,7 +101,7 @@ ___
 
 *Inherited from Map.clear*
 
-*Defined in /home/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:22*
+*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:22*
 
 **Returns:** `void`
 
@@ -114,7 +114,7 @@ ___
 
 *Inherited from Map.delete*
 
-*Defined in /home/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:23*
+*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:23*
 
 **Parameters:**
 
@@ -133,7 +133,7 @@ ___
 
 *Inherited from Map.entries*
 
-*Defined in /home/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:118*
+*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:118*
 
 Returns an iterable of key, value pairs for every entry in the map.
 
@@ -148,7 +148,7 @@ ___
 
 *Inherited from Map.forEach*
 
-*Defined in /home/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:24*
+*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:24*
 
 **Parameters:**
 
@@ -168,7 +168,7 @@ ___
 
 *Overrides Map.get*
 
-*Defined in [map-objects.ts:26](https://github.com/strong-roots-capital/map-objects/blob/9124dcf/src/map-objects.ts#L26)*
+*Defined in [map-objects.ts:26](https://github.com/strong-roots-capital/map-objects/blob/4af4058/src/map-objects.ts#L26)*
 
 **Parameters:**
 
@@ -187,7 +187,7 @@ ___
 
 *Overrides Map.has*
 
-*Defined in [map-objects.ts:15](https://github.com/strong-roots-capital/map-objects/blob/9124dcf/src/map-objects.ts#L15)*
+*Defined in [map-objects.ts:15](https://github.com/strong-roots-capital/map-objects/blob/4af4058/src/map-objects.ts#L15)*
 
 **Parameters:**
 
@@ -206,7 +206,7 @@ ___
 
 *Inherited from Map.keys*
 
-*Defined in /home/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:123*
+*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:123*
 
 Returns an iterable of keys in the map
 
@@ -221,7 +221,7 @@ ___
 
 *Overrides Map.set*
 
-*Defined in [map-objects.ts:37](https://github.com/strong-roots-capital/map-objects/blob/9124dcf/src/map-objects.ts#L37)*
+*Defined in [map-objects.ts:37](https://github.com/strong-roots-capital/map-objects/blob/4af4058/src/map-objects.ts#L37)*
 
 **Parameters:**
 
@@ -241,7 +241,7 @@ ___
 
 *Inherited from Map.values*
 
-*Defined in /home/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:128*
+*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:128*
 
 Returns an iterable of values in the map
 
