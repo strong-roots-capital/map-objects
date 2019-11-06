@@ -10,9 +10,9 @@ import deepEqual from 'deep-equal'
  * Extend built-in `Map` to treat deeply-equal keys as equivalent
  * objects.
  */
-export default class MapObjects extends Map {
+export default class MapObjects<K = any, V = any> extends Map<K, V> {
 
-    has(key: any): boolean {
+    has(key: K): boolean {
         let equalKey = key
         for (const k of this.keys()) {
             if (deepEqual(key, k)) {
@@ -23,7 +23,7 @@ export default class MapObjects extends Map {
         return super.has(equalKey)
     }
 
-    get(key: any): any {
+    get(key: K): any {
         let equalKey = key
         for (const k of this.keys()) {
             if (deepEqual(key, k)) {
@@ -34,7 +34,7 @@ export default class MapObjects extends Map {
         return super.get(equalKey)
     }
 
-    set(key: any, value: any): any {
+    set(key: K, value: V): this  {
         let equalKey = key
         for (const k of this.keys()) {
             if (deepEqual(key, k)) {

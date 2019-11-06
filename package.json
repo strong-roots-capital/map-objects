@@ -2,8 +2,8 @@
   "name": "@strong-roots-capital/map-objects",
   "version": "1.0.1",
   "description": "Map key-value pairs treating deeply-equal keys as equivalent objects",
-  "main": "dist/map-objects.js",
-  "types": "dist/map-objects.d.ts",
+  "main": "dist/src/map-objects.js",
+  "types": "dist/src/map-objects.d.ts",
   "scripts": {
     "prepublishOnly": "npm run compile",
     "compile": "npm run clean && tsc",
@@ -21,7 +21,7 @@
     "push-and-publish": "npm run push-with-tags && npm publish"
   },
   "files": [
-    "dist/"
+    "dist/src/"
   ],
   "husky": {
     "hooks": {

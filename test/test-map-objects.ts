@@ -2,6 +2,7 @@ import test from 'ava'
 import is from '@sindresorhus/is'
 import deepEqual from 'deep-equal'
 
+
 /**
  * Library under test
  */
@@ -70,3 +71,23 @@ test('`set` should not overwrite mapped value for non-deeply-equal objects', t =
     t.deepEqual(value1, map.get(a))
     t.deepEqual(value2, map.get(b))
 })
+
+test('`set` should return `this`', t => {
+    const a = {a: 1, b: 2}
+    const b = {b: 2}
+    const map = new MapObjects()
+    const value1 = 'horse'
+    const value2 = 'pig'
+    map.set(a, value1).set(b, value2)
+    t.deepEqual(value1, map.get(a))
+    t.deepEqual(value2, map.get(b))
+})
+
+// test('should support strong-typing', t => {
+//     const map = new MapObjects<number, string>()
+//     map.set(1, 'fish')
+//     map.set(2, 'fishes')
+//     map.set('a', 'fishes')
+//     t.deepEqual('fish', map.get(1))
+//     t.deepEqual('fishes', map.get(2))
+// })
