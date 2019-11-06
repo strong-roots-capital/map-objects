@@ -23,7 +23,7 @@ export default class MapObjects<K = any, V = any> extends Map<K, V> {
         return super.has(equalKey)
     }
 
-    get(key: K): any {
+    get(key: K): V | undefined {
         let equalKey = key
         for (const k of this.keys()) {
             if (deepEqual(key, k)) {
