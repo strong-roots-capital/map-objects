@@ -7,15 +7,9 @@ Extend built-in `Map` to treat deeply-equal keys as equivalent objects.
 ## Type parameters
 #### K 
 #### V 
-#### K 
-#### V 
-#### K 
-#### V 
-#### K 
-#### V 
 ## Hierarchy
 
- `Map`
+ `Map`<`K`, `V`>
 
 **↳ MapObjects**
 
@@ -164,17 +158,17 @@ ___
 
 ###  get
 
-▸ **get**(key: *`any`*): `any`
+▸ **get**(key: *`K`*): `any`
 
 *Overrides Map.get*
 
-*Defined in [map-objects.ts:26](https://github.com/strong-roots-capital/map-objects/blob/84d9eac/src/map-objects.ts#L26)*
+*Defined in [map-objects.ts:26](https://github.com/strong-roots-capital/map-objects/blob/5a487e1/src/map-objects.ts#L26)*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| key | `any` |
+| key | `K` |
 
 **Returns:** `any`
 
@@ -183,17 +177,17 @@ ___
 
 ###  has
 
-▸ **has**(key: *`any`*): `boolean`
+▸ **has**(key: *`K`*): `boolean`
 
 *Overrides Map.has*
 
-*Defined in [map-objects.ts:15](https://github.com/strong-roots-capital/map-objects/blob/84d9eac/src/map-objects.ts#L15)*
+*Defined in [map-objects.ts:15](https://github.com/strong-roots-capital/map-objects/blob/5a487e1/src/map-objects.ts#L15)*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| key | `any` |
+| key | `K` |
 
 **Returns:** `boolean`
 
@@ -217,20 +211,20 @@ ___
 
 ###  set
 
-▸ **set**(key: *`any`*, value: *`any`*): `any`
+▸ **set**(key: *`K`*, value: *`V`*): `this`
 
 *Overrides Map.set*
 
-*Defined in [map-objects.ts:37](https://github.com/strong-roots-capital/map-objects/blob/84d9eac/src/map-objects.ts#L37)*
+*Defined in [map-objects.ts:37](https://github.com/strong-roots-capital/map-objects/blob/5a487e1/src/map-objects.ts#L37)*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| key | `any` |
-| value | `any` |
+| key | `K` |
+| value | `V` |
 
-**Returns:** `any`
+**Returns:** `this`
 
 ___
 <a id="values"></a>
