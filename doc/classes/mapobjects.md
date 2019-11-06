@@ -162,7 +162,7 @@ ___
 
 *Overrides Map.get*
 
-*Defined in [map-objects.ts:26](https://github.com/strong-roots-capital/map-objects/blob/5a487e1/src/map-objects.ts#L26)*
+*Defined in [map-objects.ts:26](https://github.com/strong-roots-capital/map-objects/blob/b842202/src/map-objects.ts#L26)*
 
 **Parameters:**
 
@@ -181,7 +181,7 @@ ___
 
 *Overrides Map.has*
 
-*Defined in [map-objects.ts:15](https://github.com/strong-roots-capital/map-objects/blob/5a487e1/src/map-objects.ts#L15)*
+*Defined in [map-objects.ts:15](https://github.com/strong-roots-capital/map-objects/blob/b842202/src/map-objects.ts#L15)*
 
 **Parameters:**
 
@@ -215,7 +215,7 @@ ___
 
 *Overrides Map.set*
 
-*Defined in [map-objects.ts:37](https://github.com/strong-roots-capital/map-objects/blob/5a487e1/src/map-objects.ts#L37)*
+*Defined in [map-objects.ts:37](https://github.com/strong-roots-capital/map-objects/blob/b842202/src/map-objects.ts#L37)*
 
 **Parameters:**
 
