@@ -82,12 +82,3 @@ test('`set` should return `this`', t => {
     t.deepEqual(value1, map.get(a))
     t.deepEqual(value2, map.get(b))
 })
-
-// test('should support strong-typing', t => {
-//     const map = new MapObjects<number, string>()
-//     map.set(1, 'fish')
-//     map.set(2, 'fishes')
-//     map.set('a', 'fishes')
-//     t.deepEqual('fish', map.get(1))
-//     t.deepEqual('fishes', map.get(2))
-// })
