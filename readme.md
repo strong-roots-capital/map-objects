@@ -43,3 +43,7 @@ console.log('mapObject does find value with deeply-equal object:', mapObject.get
 ## Acknowledgments
 
 - [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+
+## Related
+
+- [collections-deep-equal](https://github.com/leafac/collections-deep-equal)
