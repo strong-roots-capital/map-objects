@@ -13,7 +13,7 @@ module.exports = {
     readme: 'readme.md',
     name: 'map-objects',
     ignoreCompilerErrors: true,
-    plugin: 'none',
+    plugin: 'typedoc-plugin-markdown',
     listInvalidSymbolLinks: true,
     theme: 'markdown'
 };

@@ -1,29 +1,33 @@
-[map-objects](../README.md) > [MapObjects](../classes/mapobjects.md)
+[map-objects](../README.md) › [Globals](../globals.md) › [MapObjects](mapobjects.md)
 
-# Class: MapObjects
+# Class: MapObjects <**K, V**>
 
-Extend built-in `Map` to treat deeply-equal keys as equivalent objects.
+Extend built-in `Map` to treat deeply-equal keys as equivalent
+objects.
 
 ## Type parameters
-#### K 
-#### V 
+
+▪ **K**
+
+▪ **V**
+
 ## Hierarchy
 
- `Map`<`K`, `V`>
+* [Map](mapobjects.md#static-map)‹K, V›
 
-**↳ MapObjects**
+  ↳ **MapObjects**
 
 ## Index
 
 ### Properties
 
-* [__@toStringTag](mapobjects.md#___tostringtag)
+* [[Symbol.toStringTag]](mapobjects.md#[symbol.tostringtag])
 * [size](mapobjects.md#size)
-* [Map](mapobjects.md#map)
+* [Map](mapobjects.md#static-map)
 
 ### Methods
 
-* [__@iterator](mapobjects.md#___iterator)
+* [[Symbol.iterator]](mapobjects.md#[symbol.iterator])
 * [clear](mapobjects.md#clear)
 * [delete](mapobjects.md#delete)
 * [entries](mapobjects.md#entries)
@@ -34,212 +38,199 @@ Extend built-in `Map` to treat deeply-equal keys as equivalent objects.
 * [set](mapobjects.md#set)
 * [values](mapobjects.md#values)
 
----
-
 ## Properties
 
-<a id="___tostringtag"></a>
+###  [Symbol.toStringTag]
 
-###  __@toStringTag
+• **[Symbol.toStringTag]**: *string*
 
-**● __@toStringTag**: *"Map"*
+*Inherited from [MapObjects](mapobjects.md).[[Symbol.toStringTag]](mapobjects.md#[symbol.tostringtag])*
 
-*Inherited from Map.[Symbol.toStringTag]*
-
-*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:130*
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:130
 
 ___
-<a id="size"></a>
 
 ###  size
 
-**● size**: *`number`*
+• **size**: *number*
 
-*Inherited from Map.size*
+*Inherited from [MapObjects](mapobjects.md).[size](mapobjects.md#size)*
 
-*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:28*
-
-___
-<a id="map"></a>
-
-### `<Static>` Map
-
-**● Map**: *`MapConstructor`*
-
-*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:35*
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:28
 
 ___
+
+### `Static` Map
+
+▪ **Map**: *MapConstructor*
+
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:36
 
 ## Methods
 
-<a id="___iterator"></a>
+###  [Symbol.iterator]
 
-###  __@iterator
+▸ **[Symbol.iterator]**(): *IterableIterator‹[K, V]›*
 
-▸ **__@iterator**(): `IterableIterator`<[`K`, `V`]>
+*Inherited from [MapObjects](mapobjects.md).[[Symbol.iterator]](mapobjects.md#[symbol.iterator])*
 
-*Inherited from Map.[Symbol.iterator]*
-
-*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:113*
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:121
 
 Returns an iterable of entries in the map.
 
-**Returns:** `IterableIterator`<[`K`, `V`]>
+**Returns:** *IterableIterator‹[K, V]›*
 
 ___
-<a id="clear"></a>
 
 ###  clear
 
-▸ **clear**(): `void`
+▸ **clear**(): *void*
 
-*Inherited from Map.clear*
+*Inherited from [MapObjects](mapobjects.md).[clear](mapobjects.md#clear)*
 
-*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:22*
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:22
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="delete"></a>
 
 ###  delete
 
-▸ **delete**(key: *`K`*): `boolean`
+▸ **delete**(`key`: K): *boolean*
 
-*Inherited from Map.delete*
+*Inherited from [MapObjects](mapobjects.md).[delete](mapobjects.md#delete)*
 
-*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:23*
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:23
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `K` |
+Name | Type |
+------ | ------ |
+`key` | K |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="entries"></a>
 
 ###  entries
 
-▸ **entries**(): `IterableIterator`<[`K`, `V`]>
+▸ **entries**(): *IterableIterator‹[K, V]›*
 
-*Inherited from Map.entries*
+*Inherited from [MapObjects](mapobjects.md).[entries](mapobjects.md#entries)*
 
-*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:118*
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:126
 
 Returns an iterable of key, value pairs for every entry in the map.
 
-**Returns:** `IterableIterator`<[`K`, `V`]>
+**Returns:** *IterableIterator‹[K, V]›*
 
 ___
-<a id="foreach"></a>
 
 ###  forEach
 
-▸ **forEach**(callbackfn: *`function`*, thisArg?: *`any`*): `void`
+▸ **forEach**(`callbackfn`: function, `thisArg?`: any): *void*
 
-*Inherited from Map.forEach*
+*Inherited from [MapObjects](mapobjects.md).[forEach](mapobjects.md#foreach)*
 
-*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:24*
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es2015.collection.d.ts:24
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| callbackfn | `function` |
-| `Optional` thisArg | `any` |
+▪ **callbackfn**: *function*
 
-**Returns:** `void`
+▸ (`value`: V, `key`: K, `map`: [Map](mapobjects.md#static-map)‹K, V›): *void*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`value` | V |
+`key` | K |
+`map` | [Map](mapobjects.md#static-map)‹K, V› |
+
+▪`Optional`  **thisArg**: *any*
+
+**Returns:** *void*
 
 ___
-<a id="get"></a>
 
 ###  get
 
-▸ **get**(key: *`K`*): `any`
+▸ **get**(`key`: K): *V | undefined*
 
-*Overrides Map.get*
+*Overrides void*
 
-*Defined in [map-objects.ts:26](https://github.com/strong-roots-capital/map-objects/blob/b842202/src/map-objects.ts#L26)*
+*Defined in [src/map-objects.ts:26](https://github.com/strong-roots-capital/map-objects/blob/9eebf6c/src/map-objects.ts#L26)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `K` |
+Name | Type |
+------ | ------ |
+`key` | K |
 
-**Returns:** `any`
+**Returns:** *V | undefined*
 
 ___
-<a id="has"></a>
 
 ###  has
 
-▸ **has**(key: *`K`*): `boolean`
+▸ **has**(`key`: K): *boolean*
 
-*Overrides Map.has*
+*Overrides void*
 
-*Defined in [map-objects.ts:15](https://github.com/strong-roots-capital/map-objects/blob/b842202/src/map-objects.ts#L15)*
+*Defined in [src/map-objects.ts:15](https://github.com/strong-roots-capital/map-objects/blob/9eebf6c/src/map-objects.ts#L15)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `K` |
+Name | Type |
+------ | ------ |
+`key` | K |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="keys"></a>
 
 ###  keys
 
-▸ **keys**(): `IterableIterator`<`K`>
+▸ **keys**(): *IterableIterator‹K›*
 
-*Inherited from Map.keys*
+*Inherited from [MapObjects](mapobjects.md).[keys](mapobjects.md#keys)*
 
-*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:123*
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:131
 
 Returns an iterable of keys in the map
 
-**Returns:** `IterableIterator`<`K`>
+**Returns:** *IterableIterator‹K›*
 
 ___
-<a id="set"></a>
 
 ###  set
 
-▸ **set**(key: *`K`*, value: *`V`*): `this`
+▸ **set**(`key`: K, `value`: V): *this*
 
-*Overrides Map.set*
+*Overrides void*
 
-*Defined in [map-objects.ts:37](https://github.com/strong-roots-capital/map-objects/blob/b842202/src/map-objects.ts#L37)*
+*Defined in [src/map-objects.ts:37](https://github.com/strong-roots-capital/map-objects/blob/9eebf6c/src/map-objects.ts#L37)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `K` |
-| value | `V` |
+Name | Type |
+------ | ------ |
+`key` | K |
+`value` | V |
 
-**Returns:** `this`
+**Returns:** *this*
 
 ___
-<a id="values"></a>
 
 ###  values
 
-▸ **values**(): `IterableIterator`<`V`>
+▸ **values**(): *IterableIterator‹V›*
 
-*Inherited from Map.values*
+*Inherited from [MapObjects](mapobjects.md).[values](mapobjects.md#values)*
 
-*Defined in /Users/eric/workspace/strong-roots-capital/map-objects/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:128*
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:136
 
 Returns an iterable of values in the map
 
-**Returns:** `IterableIterator`<`V`>
-
-___
-
+**Returns:** *IterableIterator‹V›*

@@ -1,19 +1,20 @@
+[map-objects](README.md) › [Globals](globals.md)
 
-map-objects [![Build status](https://travis-ci.org/strong-roots-capital/map-objects.svg?branch=master)](https://travis-ci.org/strong-roots-capital/map-objects) [![npm version](https://img.shields.io/npm/v/@strong-roots-capital/map-objects.svg)](https://npmjs.org/package/@strong-roots-capital/map-objects) [![codecov](https://codecov.io/gh/strong-roots-capital/map-objects/branch/master/graph/badge.svg)](https://codecov.io/gh/strong-roots-capital/map-objects)
-============================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+# map-objects
+
+# map-objects [![Build status](https://travis-ci.org/strong-roots-capital/map-objects.svg?branch=master)](https://travis-ci.org/strong-roots-capital/map-objects) [![npm version](https://img.shields.io/npm/v/@strong-roots-capital/map-objects.svg)](https://npmjs.org/package/@strong-roots-capital/map-objects) [![codecov](https://codecov.io/gh/strong-roots-capital/map-objects/branch/master/graph/badge.svg)](https://codecov.io/gh/strong-roots-capital/map-objects)
 
 > Map key-value pairs treating deeply-equal keys as equivalent objects
 
-Install
--------
+## Install
 
-```shell
+``` shell
 npm install @strong-roots-capital/map-objects
 ```
 
 This module uses the following settings in `tsconfig.json`
 
-```json
+``` json
 {
     "compilerOptions": {
         "target": "es6",
@@ -22,10 +23,9 @@ This module uses the following settings in `tsconfig.json`
 }
 ```
 
-Use
----
+## Use
 
-```typescript
+``` typescript
 import mapObjects from '@strong-roots-capital/map-objects'
 import deepEqual from 'deep-equal'
 
@@ -44,16 +44,6 @@ mapObject.set(a, value)
 console.log('mapObject does find value with deeply-equal object:', mapObject.get(b))
 ```
 
-Acknowledgments
----------------
+## Acknowledgments
 
-*   [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
-
-## Index
-
-### Classes
-
-* [MapObjects](classes/mapobjects.md)
-
----
-
+- [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)

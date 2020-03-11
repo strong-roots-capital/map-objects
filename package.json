@@ -23,11 +23,6 @@
   "files": [
     "dist/src/"
   ],
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run typedoc && git add doc && (git commit -m 'Update documentation' || true)"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/strong-roots-capital/map-objects.git"
@@ -53,7 +48,6 @@
     "@types/node": "^13.9.0",
     "ava": "^3.5.0",
     "codecov": "^3.6.5",
-    "husky": "^4.2.3",
     "nyc": "^15.0.0",
     "tap-nyc": "^1.0.3",
     "ts-node": "^8.6.2",
