@@ -4,7 +4,11 @@
 
 [build status]: https://github.com/strong-roots-capital/map-objects/actions/workflows/release.yml/badge.svg?event=push
 
-> Map key-value pairs treating deeply-equal keys as equivalent objects
+Map key-value pairs treating deeply-equal keys as equivalent objects
+
+> [!NOTE]
+> This project is functional, but not actively maintained.
+> Please feel free to fork it!
 
 ## Install
 
