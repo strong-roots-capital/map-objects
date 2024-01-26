@@ -35,7 +35,7 @@
     "@sindresorhus/is": "^2.1.0",
     "@types/deep-equal": "^1.0.1",
     "@types/node": "^12.12.29",
-    "ava": "^3.5.0",
+    "ava": "^6.1.0",
     "codecov": "^3.6.5",
     "nyc": "^15.0.0",
     "tap-nyc": "^1.0.3",
