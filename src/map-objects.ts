@@ -3,54 +3,54 @@
  * Map key-value pairs treating deeply-equal keys as equivalent objects
  */
 
-import deepEqual from 'deep-equal'
-
+import deepEqual from "deep-equal";
 
 /**
  * Extend built-in `Map` to treat deeply-equal keys as equivalent
  * objects.
  */
 export default class MapObjects<K = any, V = any> extends Map<K, V> {
-    delete(key: K) {
-        let equalKey = key;
-        for (const k of this.keys()) {
-            if (deepEqual(key, k)) {
-                equalKey = k;
-                break;
-            }
-        }
-        return super.delete(equalKey);
+  delete(key: K) {
+    let equalKey = key;
+    for (const k of this.keys()) {
+      if (deepEqual(key, k)) {
+        equalKey = k;
+        break;
+      }
     }
-    has(key: K): boolean {
-        let equalKey = key
-        for (const k of this.keys()) {
-            if (deepEqual(key, k)) {
-                equalKey = k
-                break
-            }
-        }
-        return super.has(equalKey)
-    }
+    return super.delete(equalKey);
+  }
 
-    get(key: K): V | undefined {
-        let equalKey = key
-        for (const k of this.keys()) {
-            if (deepEqual(key, k)) {
-                equalKey = k
-                break
-            }
-        }
-        return super.get(equalKey)
+  has(key: K): boolean {
+    let equalKey = key;
+    for (const k of this.keys()) {
+      if (deepEqual(key, k)) {
+        equalKey = k;
+        break;
+      }
     }
+    return super.has(equalKey);
+  }
 
-    set(key: K, value: V): this {
-        let equalKey = key
-        for (const k of this.keys()) {
-            if (deepEqual(key, k)) {
-                equalKey = k
-                break
-            }
-        }
-        return super.set(equalKey, value)
+  get(key: K): V | undefined {
+    let equalKey = key;
+    for (const k of this.keys()) {
+      if (deepEqual(key, k)) {
+        equalKey = k;
+        break;
+      }
     }
+    return super.get(equalKey);
+  }
+
+  set(key: K, value: V): this {
+    let equalKey = key;
+    for (const k of this.keys()) {
+      if (deepEqual(key, k)) {
+        equalKey = k;
+        break;
+      }
+    }
+    return super.set(equalKey, value);
+  }
 }
