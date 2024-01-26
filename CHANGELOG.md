@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/strong-roots-capital/map-objects/compare/v1.1.0...v1.1.1) (2024-01-26)
+
+
+### Bug Fixes
+
+* **types:** denote return type of `delete` ([00eb3e3](https://github.com/strong-roots-capital/map-objects/commit/00eb3e391252dbe235060d524b8197611d167725))
+
 # [1.1.0](https://github.com/strong-roots-capital/map-objects/compare/v1.0.7...v1.1.0) (2024-01-26)
 
 
