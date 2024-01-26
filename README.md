@@ -30,7 +30,7 @@ This module uses the following settings in `tsconfig.json`
 ## Use
 
 ```typescript
-import mapObjects from "@strong-roots-capital/map-objects";
+import MapObjects from "@strong-roots-capital/map-objects";
 import deepEqual from "deep-equal";
 
 const a = { a: 1, b: 2, c: 3 };
