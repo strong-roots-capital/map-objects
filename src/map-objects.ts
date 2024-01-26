@@ -10,7 +10,7 @@ import deepEqual from "deep-equal";
  * objects.
  */
 export default class MapObjects<K = any, V = any> extends Map<K, V> {
-  delete(key: K) {
+  delete(key: K): boolean {
     let equalKey = key;
     for (const k of this.keys()) {
       if (deepEqual(key, k)) {
