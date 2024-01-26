@@ -29,11 +29,11 @@
   },
   "homepage": "https://github.com/strong-roots-capital/map-objects",
   "dependencies": {
-    "@types/deep-equal": "^1.0.1",
     "deep-equal": "^2.0.1"
   },
   "devDependencies": {
     "@sindresorhus/is": "^2.1.0",
+    "@types/deep-equal": "^1.0.1",
     "@types/node": "^12.12.29",
     "ava": "^3.5.0",
     "codecov": "^3.6.5",
